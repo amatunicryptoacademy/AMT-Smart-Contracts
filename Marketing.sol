@@ -22,7 +22,7 @@ contract Marketing is Ownable {
     event Claimed(uint256 amount, uint256 blockNumber);
 
     constructor(IERC20 token_) {
-        require(address(token_) != address(0), "Marketing: Token address can't be address zero");
+        require(address(token_) != address(0), ": Token address can't be address zero");
         token = token_;
         startBlock = block.number;
     }
