@@ -1,0 +1,47 @@
+{
+  "address": "0x7B6a566D303C716dFA5Caa92b5f5e35b911C258d",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "transactionHash": "0x09490d3bd1149f1e7aa5466df868771395c354b53419751c564446d6861a522b",
+  "receipt": {
+    "to": null,
+    "from": "0xb2444FE0E53378E094736834067c1E2653ec3CAB",
+    "contractAddress": "0x7B6a566D303C716dFA5Caa92b5f5e35b911C258d",
+    "transactionIndex": 0,
+    "gasUsed": "67066",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xf6c7f972a3f51528e94d957f27c6b951a6e2e067d059d91d4088f954438b53ea",
+    "transactionHash": "0x09490d3bd1149f1e7aa5466df868771395c354b53419751c564446d6861a522b",
+    "logs": [],
+    "blockNumber": 23981854,
+    "cumulativeGasUsed": "67066",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 3,
+  "solcInputHash": "b9bf11b2cd27f35da0387028bcfb39bd",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"BurnReserve contract is designed for collecting tokens that will be burnt.  This contract has no option to remove tokens for secondary usage.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/BurnReserve.sol\":\"BurnReserve\"},\"evmVersion\":\"london\",\"libraries\":{\":__CACHE_BREAKER__\":\"0x00000000d41867734bbee4c6863d9255b2b06ac1\"},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/BurnReserve.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.12;\\n/**\\n * BurnReserve contract is designed for collecting tokens that will be burnt. \\n * This contract has no option to remove tokens for secondary usage.\\n */ \\ncontract BurnReserve {\\n    constructor() {}\\n}\\n\",\"keccak256\":\"0xf27026cac09218d64208a91c64c6a1bea3c8c5e16074ffb06f8a9ddb398e0e98\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203bc76bc5728f86011f6964c8051b9aec779946661012a87cbe0b4df571ba198664736f6c634300080c0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212203bc76bc5728f86011f6964c8051b9aec779946661012a87cbe0b4df571ba198664736f6c634300080c0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "BurnReserve contract is designed for collecting tokens that will be burnt.  This contract has no option to remove tokens for secondary usage.",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}
